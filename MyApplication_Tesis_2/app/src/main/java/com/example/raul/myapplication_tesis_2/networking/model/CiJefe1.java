@@ -1,0 +1,54 @@
+
+package com.example.raul.myapplication_tesis_2.networking.model;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class CiJefe1 {
+
+    @SerializedName("ci")
+    @Expose
+    private String ci;
+    @SerializedName("nombres")
+    @Expose
+    private String nombres;
+    @SerializedName("apellidos")
+    @Expose
+    private String apellidos;
+    @SerializedName("idUeb")
+    @Expose
+    private IdUeb idUeb;
+
+    public String getCi() {
+        return ci;
+    }
+
+    public void setCi(String ci) {
+        this.ci = ci;
+    }
+
+    public String getNombres() {
+        return nombres;
+    }
+
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public IdUeb getIdUeb() {
+        return idUeb;
+    }
+
+    public void setIdUeb(IdUeb idUeb) {
+        this.idUeb = idUeb;
+    }
+
+}

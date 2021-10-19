@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TESIS</string>
+    <string name="login">Acceder</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="nombreCompleto">Nombre Completo</string>
+    <string name="password">Contraseña</string>
+    <string name="web_site">https://api.localhost/api</string>
+    <string name="empty">Requerido*</string>
+    <string name="valid_user_name">Usuario incorrecto*</string>
+    <string name="dialog_err_title">ERROR</string>
+    <string name="dialog_on_failure">No se pudo establecer una conexión con el servidor, inténtelo más tarde…</string>
+    <string name="dialog_401">Puede ser causado por:\n• Usuario o contraseña incorrecta.\n• Configuración incorrecta del proxy.\n• Error en la validación del usuario.</string>
+    <string name="dialog_logout_msg">Desea cerrar la sesión?</string>
+    <string name="loading">Cargando…</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="home">Inicio</string>
+    <string name="ueb">UEB</string>
+    <string name="siembra">Siembra</string>
+    <string name="estanque">Estanque</string>
+    <string name="alimentacion">Alimentacion</string>
+    <string name="granja">Granja</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
